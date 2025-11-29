@@ -1,0 +1,48 @@
+# This is a sheet of notes while making the FE code
+
+# Will have notes about the code as well as observations when adding the STEM calculations 
+
+
+# Observations:
+
+#   - You can think of ohms Law as a measurable energy quantity = the rate of energy transfer * the resistance to energy transfer
+#       - Voltage (V) = Current (I) * Resistance (R)
+#       - Temperature Difference (ΔT) = Rate of Heat Transfer (Q) * Thermal Resistance (Rth)
+#       - Pressure Difference (ΔP) = Volumetric Flow Rate (Q) * Flow Resistance (Rf)        (This applies to water and air flow)
+
+
+
+# Notes:
+
+# Tkinter Button Command Lambda Functions:
+#   - When creating buttons in Tkinter, you can use lambda functions to pass arguments to the command parameter.
+#   - This allows you to create buttons that can call functions with specific arguments when clicked.
+
+# Types of Tkinter Widgets Used:
+#   - Frame: A container widget that can hold other widgets.
+#   - Label: A widget used to display text or images.
+#   - Button: A widget that can be clicked to perform an action.
+#   - Entry: A widget that allows the user to input text.
+
+# Python Basics:
+#   - Can add onto lists using the extend() method.
+#       - example_list.extend([item1, item2, item3]) 
+#       - Same as:     example_list = example_list + [item1, item2, item3]   
+#   - Use math.log() for natural logarithm (base e)
+#   - Use math.log10() for base 10 logarithm
+
+
+
+
+# Features to add:
+
+#   - Answer sheet walkthrough maker that shows how to do the problem step by step
+#       - May be good to have functions that solve parts of problems that can be called in the walkthrough maker
+#            - Would also shorten the functions if these are in seperate files / Functions
+#   - Better handling of multi-part questions
+#   - Maybe have a way to randomly decide if a question is multi-part or not   
+#       - Add units to answers
+#   - Toggle between different modes (PDF mode, answer sheet mode, etc)
+#   - Add more problems and categories as needed
+#   - Add scrollable frames for better navigation through long content
+#   - Eventually will need a diagram maker for certain problems that require visual aids (Maybe use matplotlib or PIL for this)
